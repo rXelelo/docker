@@ -21,4 +21,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/yolks-debian-user:latest
+          tags: ghcr.io/rxelelo/yolks-debian-user:latest
