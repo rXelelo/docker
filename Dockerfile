@@ -1,5 +1,5 @@
 FROM ghcr.io/ptero-eggs/yolks:debian
 
-RUN useradd -m -d /home/container -s /bin/bash container 2>/dev/null || true
+RUN useradd -m -d /home/container -s /bin/bash gitea 2>/dev/null || true
 
-USER container
+USER gitea
