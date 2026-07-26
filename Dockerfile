@@ -5,4 +5,5 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 RUN groupadd -g 1001 git && \
-    useradd -m -d /home/container -s /bin/bash -u 1001 -g 1001 git
+    useradd -m -d /home/container -s /bin/bash -u 1000 -g 1000 git
+USER git
